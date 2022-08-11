@@ -8,30 +8,30 @@ import iconRefrigerante from '../../assets/refrigerante.png';
 import iconCerveja from '../../assets/cerveja.png';
 export default function Cards() {
  return (
-  <View>
+  <View style={styles.container}>
 
-    <View>
-      <Image source={iconConvidado}/>
-      <Text>Convidados</Text>
-      <Text>1</Text>
+    <View style={styles.card}>
+      <Image source={iconConvidado} style={styles.imgIcon}/>
+      <Text style={styles.boxTexto}>Convidados</Text>
+      <Text style={styles.boxValor}>1</Text>
     </View>
 
-    <View>
-      <Image source={iconCarne}/>
-      <Text>Carne</Text>
-      <Text>400 GR</Text>
+    <View style={styles.card}>
+      <Image source={iconCarne} style={styles.imgIcon}/>
+      <Text style={styles.boxTexto}>Carne</Text>
+      <Text style={styles.boxValor}>400 GR</Text>
     </View>
 
-    <View>
-      <Image source={iconRefrigerante}/>
-      <Text>Refrigerante</Text>
-      <Text>700 ML</Text>
+    <View style={styles.card}>
+      <Image source={iconRefrigerante} style={styles.imgIcon}/>
+      <Text style={styles.boxTexto}>Refrigerante</Text>
+      <Text style={styles.boxValor}>700 ML</Text>
     </View>
 
-    <View>
-      <Image source={iconCerveja}/>
-      <Text>Cerveja</Text>
-      <Text>4 Latas</Text>
+    <View style={styles.card}>
+      <Image source={iconCerveja} style={styles.imgIcon}/>
+      <Text style={styles.boxTexto}>Cerveja</Text>
+      <Text style={styles.boxValor}>4 Latas</Text>
     </View>
 
   </View>
