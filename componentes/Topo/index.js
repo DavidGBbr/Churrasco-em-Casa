@@ -6,12 +6,17 @@ import imgChurrasco from '../../assets/churrasco.png';
 
 export default function Topo() {
  return (
-  <View>
-    <Image source={imgChurrasco}/>
+  <View style={styles.box}>
+    <Image source={imgChurrasco} style={styles.imgIcon}/>
 
     <View>
-      <Text>Churrasco em casa</Text>
-      <Text>Calculando a comida e a bebida</Text>
+      <Text style={styles.title}>
+        Churrasco em casa
+      </Text>
+
+      <Text style={styles.description}>
+        Calculando a comida e a bebida
+      </Text>
     </View>
 
   </View>
