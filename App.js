@@ -7,10 +7,10 @@ import Cards from './componentes/Cards/';
 
 export default function App() {
  return (
-   <View>
+  <View>
     <Topo/>
     <Texto/>
     <Cards/>
-   </View>
+  </View>
   );
 }
